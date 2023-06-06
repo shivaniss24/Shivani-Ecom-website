@@ -1,0 +1,42 @@
+.trusted-container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+
+    background-color: rgb(225, 222, 222);
+}
+
+
+
+.brand-section {
+    padding: 12rem 0 0 0;
+}
+
+.head-3 {
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-size: 2rem;
+    font-size: bold;
+}
+
+.brand-sec-img {
+    min-width: 8rem;
+    height: 8rem;
+}
+
+.brand-section-slider {
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:600px) {
+    .brand-section-slider {
+        margin-top: 3.2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+}

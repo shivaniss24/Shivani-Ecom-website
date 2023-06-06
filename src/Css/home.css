@@ -1,0 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;700&display=swap'); */
+
+
+.home {
+    height: 100%;
+    width: 100%;
+
+    display: block;
+    color: blue;
+    background-color: rgb(225, 222, 222);
+
+}

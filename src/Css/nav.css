@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;700&display=swap'); */
+
+.navbar-list {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.navbar-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+    transition: color 0.3s linear;
+}
+
+.navbar-link:hover,
+.navbar-link:link {
+    color: rgb(0, 187, 255);
+    /* margin-right: 0.1rem; */
+    text-decoration: none;
+}
+
+.navbar-link .home-link {
+    text-decoration: none;
+}
+
+.navbar-link .cart-trolley--link {
+    position: relative;
+}
+
+.cart-trolley {
+    position: relative;
+    font-size: 3.2 rem;
+}
+
+.cart-total--item {
+    width: 2.4rem;
+    height: 2.4rem;
+    position: absolute;
+    background-color: #807474;
+    color: #000;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    top: -20%;
+    left: 70%;
+    background-color: blanchedalmond;
+}
