@@ -1,0 +1,31 @@
+.contact-container {
+    max-width: 20rem;
+    margin: auto;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.submit-input {
+    cursor: pointer;
+    transition: all 0.2s;
+    align-items: left;
+    width: 8rem;
+
+}
+
+.submit-input:hover {
+    background-color: violet;
+    border: 1px solid black;
+    color: cadetblue;
+    transform: scale(0.9);
+}
+
+.common-heading {
+    font-size: 40px;
+    margin-left: 40%;
+}

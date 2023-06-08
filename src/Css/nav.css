@@ -1,26 +1,30 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;700&display=swap'); */
+#root {
+    --primary-color: #0e7490;
+    --secondary-color: #d4d4d8;
+    --ternary-color: #991b1b;
+}
 
 .navbar-list {
     display: flex;
     gap: 2rem;
     align-items: center;
     list-style-type: none;
-
 }
 
 .navbar-link:visited {
     display: inline-block;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.1rem;
     font-weight: 500;
     text-transform: uppercase;
-    color: black;
+    color: var(--primary-color);
     transition: color 0.3s linear;
 }
 
 .navbar-link:hover,
 .navbar-link:link {
-    color: rgb(0, 187, 255);
+    color: var(--ternary-color);
     /* margin-right: 0.1rem; */
     text-decoration: none;
 }
@@ -35,19 +39,19 @@
 
 .cart-trolley {
     position: relative;
-    font-size: 3.2 rem;
+    font-size: 0.3 rem;
 }
 
 .cart-total--item {
     width: 2.4rem;
     height: 2.4rem;
     position: absolute;
-    background-color: #807474;
+    background-color: var(--secondary-color);
     color: #000;
     border-radius: 50%;
     display: grid;
     place-items: center;
     top: -20%;
     left: 70%;
-    background-color: blanchedalmond;
+    background-color: var(--secondary-color);
 }

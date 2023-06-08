@@ -1,0 +1,36 @@
+#root {
+    --primary-color: #0e7490;
+    --secondary-color: #d4d4d8;
+    --ternary-color: #991b1b;
+    --fourth-color: #172554;
+    --fifth-color: #bae6fd;
+}
+
+.contact-short {
+    max-width: 60vw;
+    margin: auto;
+    padding: 2rem 5rem;
+    background-color: var(--fifth-color);
+    border-radius: 1rem;
+    box-shadow: inset;
+    transform: translateY(50%);
+}
+
+.grid div:last-child {
+    justify-self: end;
+    align-self: center;
+}
+
+footer {
+    padding: 5rem 0 3rem 0;
+    background-color: var(--fourth-color);
+}
+
+h3 {
+    color: black;
+    margin-bottom: 2.4rem;
+}
+
+p {
+    color: white;
+}

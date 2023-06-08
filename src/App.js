@@ -8,6 +8,7 @@ import SingleProduct from "./SingleProduct";
 import Cart from "./Cart";
 import ErrorPage from "./ErrorPage";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
