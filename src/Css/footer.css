@@ -6,6 +6,26 @@
     --fifth-color: #bae6fd;
 }
 
+.container {
+    max-width: 130rem;
+    padding: 0 3.2rem;
+    margin-left: 6rem;
+    margin-right: 5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 5rem;
+}
+
+.grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-four-column {
+    grid-template-columns: 1fr 1.2fr .5fr .8fr;
+}
+
 .contact-short {
     max-width: 60vw;
     margin: auto;
@@ -27,10 +47,42 @@ footer {
 }
 
 h3 {
-    color: black;
+    color: white;
     margin-bottom: 2.4rem;
 }
 
 p {
     color: white;
+}
+
+.icons {
+    color: white;
+    padding: 0.4rem;
+    font-size: 2rem;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5rem;
+}
+
+div {
+    padding: 1rem;
+    /* border-radius: 50%; */
+    border: white;
+}
+
+
+
+.footer-social--icons {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-bottom--section {
+    padding-top: 9rem;
+}
+
+footer {
+    padding: 14rem 0 9rem 0;
+    background-color: var(--fourth-color);
 }

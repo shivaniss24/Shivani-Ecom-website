@@ -52,8 +52,23 @@ const Footer = () => {
                             </div>
 
                         </div>
-                    </div>
 
+
+                    </div>
+                    <div className='footer-contact'>
+                        <h3>Call Us</h3>
+                        <h3>9876656587</h3>
+                    </div>
+                </div>
+                <div className='footer-bottom-section'>
+                    <hr />
+                    <div className='container grid grid-two-column'>
+                        <p>@{new Date().getFullYear()}2023 Shop It. All Rights Reserved</p>
+                        <div>
+                            <p>PRIVACY POLICY</p>
+                            <p>TERMS & CONDITIONS</p>
+                        </div>
+                    </div>
                 </div>
             </footer>
 
