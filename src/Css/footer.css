@@ -30,10 +30,11 @@
     max-width: 60vw;
     margin: auto;
     padding: 2rem 5rem;
-    background-color: var(--fifth-color);
+    background-color: var(--secondary-color);
     border-radius: 1rem;
     box-shadow: inset;
     transform: translateY(50%);
+
 }
 
 .grid div:last-child {
@@ -85,4 +86,20 @@ div {
 footer {
     padding: 14rem 0 9rem 0;
     background-color: var(--fourth-color);
+}
+
+.subscribe-input-btn {
+    background-color: var(--primary-color);
+}
+
+.start-btn {
+    background-color: var(--primary-color);
+}
+
+.head-1 {
+    color: black;
+}
+
+.head-2 {
+    color: black;
 }

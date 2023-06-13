@@ -8,12 +8,12 @@ const Footer = () => {
         <div>
             <section className='contact-short'>
                 <div className='grid grid-two-column'>
-                    <div>
-                        <h3>Ready to get started</h3>
-                        <h3>Talk to us today</h3>
+                    <div className='intro'>
+                        <h3 className='head-1'>Ready to get started</h3>
+                        <h3 className='head-2'>Talk to us today</h3>
                     </div>
                     <div>
-                        <button>
+                        <button className='start-btn'>
                             <NavLink to="/contact">
                                 Get Started
                             </NavLink>
@@ -35,7 +35,7 @@ const Footer = () => {
                         <h3>Subscribe to get important updates</h3>
                         <form action='#'>
                             <input type='email' placeholder='your e-mail'></input>
-                            <input type='submit' value="Subscribe"></input>
+                            <input type='submit' value="Subscribe" className='subscribe-input-btn'></input>
                         </form>
                     </div>
                     <div className='footer-social'>
