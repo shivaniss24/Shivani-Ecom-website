@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import "../Css/nav.css";
 import { FiShoppingCart } from "react-icons/fi";
+import '../Css/button.css';
 
 const Nav = () => {
     return (

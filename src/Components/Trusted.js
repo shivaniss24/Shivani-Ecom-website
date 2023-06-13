@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Css/trusted.css";
+import '../Css/button.css';
 
 const Trusted = () => {
     return (

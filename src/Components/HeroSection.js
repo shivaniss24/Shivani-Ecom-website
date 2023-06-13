@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Css/herosection.css";
 import { NavLink } from 'react-router-dom';
+import '../Css/button.css';
 
 const HeroSection = ({ myData }) => {
     const { name } = myData;
