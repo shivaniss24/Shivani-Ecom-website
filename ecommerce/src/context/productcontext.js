@@ -8,7 +8,7 @@ const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
     useEffect(() => {
-        getProducts();
+        // getProducts();
     }, [])
 
     return (
