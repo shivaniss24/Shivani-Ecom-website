@@ -10,7 +10,7 @@ const AppContext = createContext();
 
 // const API = "https://api.pujakaitem.com/api/products";
 
-const API = "https://mocki.io/v1/5e8e04f0-d658-4c89-b7dd-b7ce7e517985";
+const API = "/api/products";
 
 const initialState = {
     isLoading: false,
