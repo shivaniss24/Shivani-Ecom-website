@@ -4,6 +4,7 @@
 
 import { createContext, useContext, useEffect, useReducer } from "react";
 import axios from "axios";
+// import products from "../backend/db/products";
 import reducer from "../reducer/productReducer";
 
 const AppContext = createContext();

@@ -29,7 +29,7 @@ const Nav = () => {
                 <li>
                     <NavLink to="/cart" className="navbar-link  cart-trolley--link">
                         <FiShoppingCart className="cart-trolley" />
-                        <span classname="cart-total--item">0</span>
+                        <span className="cart-total--item">0</span>
 
                     </NavLink>
                 </li>

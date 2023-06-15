@@ -1,0 +1,122 @@
+ #root {
+     --primary-color: #0e7490;
+     --secondary-color: #d4d4d8;
+     --ternary-color: #991b1b;
+     --fourth-color: #172554;
+     --fifth-color: #bae6fd;
+ }
+
+ .section {
+     padding: 9rem 0;
+     background-color: var(--secondary-color);
+ }
+
+ ;
+
+ .container {
+     max-width: 120rem;
+ }
+
+ .feature-figure {
+     width: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     overflow: hidden;
+     transition: all 0.5s linear;
+ }
+
+ .feature-figure::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 0%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     transition: all 0.2s linear;
+     cursor: pointer;
+ }
+
+ .feature-figure:hover::after {
+     width: 100%;
+ }
+
+ .feature-figure :hover {
+     transform: scale(1.2);
+ }
+
+ .feature-img {
+     max-width: 90%;
+     margin-top: 1.5rem;
+     height: 10rem;
+     transition: all 0.2s linear;
+ }
+
+ .feature-img:hover {
+     transition: all 0.2s linear;
+ }
+
+ .caption {
+     position: absolute;
+     top: 10%;
+     right: 5%;
+     text-transform: uppercase;
+     background-color: var(--fifth-color);
+     color: var(--fourth-color);
+     padding: 0.5rem;
+     font-size: 1.2rem;
+     border-radius: 2rem;
+ }
+
+
+ .card {
+     background-color: #fff;
+     border-radius: 1rem;
+ }
+
+ .card-data {
+     padding: 0 2rem;
+ }
+
+ .card-data-flex {
+     margin: 2rem 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .feature-h3 {
+     color: var(--fourth-color)
+ }
+
+ .card-data--price {
+     color: var(--fourth-color);
+     font-size: 15px;
+     align-items: center;
+ }
+
+
+
+ .feature-intro-data {
+     margin: 2rem auto;
+     background-color: rgb(0 0 0 / 0%);
+     border: 0.1rem solid rgb(98 84 243);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .feature-intro-data:hover {
+     background-color: rgb(98 84 243);
+ }
+
+ .feature-intro-data:hover a {
+     color: #fff;
+ }
+
+ a {
+     color: rgb(98 84 243);
+     font-size: 1.4rem;
+ }
