@@ -4,12 +4,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { AppProvider } from "./context/productcontext";
-import { makeServer } from "./server";
+// import { makeServer } from "./server";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // Call make Server
-makeServer();
+// makeServer();
 
 root.render(
     <AppProvider>

@@ -9,7 +9,7 @@ import Cart from "./Cart";
 import ErrorPage from "./ErrorPage";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import Mockman from "mockman-js"
+// import Mockman from "mockman-js"
 
 
 
@@ -27,7 +27,7 @@ const App = () => {
         <Route path="/singleproduct/:id" element={<SingleProduct />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<ErrorPage />} />
-        <Route path="/mockman" element={<Mockman />} />
+        {/* <Route path="/mockman" element={<Mockman />} /> */}
       </Routes>
       <Footer />
     </Router>

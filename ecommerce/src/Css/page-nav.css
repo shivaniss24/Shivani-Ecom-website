@@ -1,0 +1,19 @@
+#root {
+    --primary-color: #0e7490;
+    --secondary-color: #d4d4d8;
+    --ternary-color: #991b1b;
+}
+
+.page-nav {
+    height: 2rem;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    padding-left: 1.2rem;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
